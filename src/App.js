@@ -23,7 +23,13 @@ function App() {
                 <h3>{item.title}</h3>
                 <p>${item.price}</p>
               </div>
-            </div>))
+              <form action="">
+                <button>Sell</button>
+                <input type="number" name="" id="" />
+                <button>Buy</button>
+              </form>
+            </div>
+            ))
         }
       </div>
     </div>

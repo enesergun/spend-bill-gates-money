@@ -20,7 +20,7 @@
   background-color: white;
   padding: 20px;
   border-radius: 10px;
-  margin-top: 10px;
+  margin: 10px 0 10px 0;
   background: linear-gradient(180deg ,#2ecc71,#1abc9c);
   font-size: 32px;
   font-weight: bold;
@@ -31,4 +31,22 @@
   display: grid;
   grid-template-columns: repeat(3,minmax(0,1fr));
   grid-gap: 10px 10px;
+}
+
+.product {
+  padding: 15px;
+  background: white;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px 12px;
+  width: 92px;
+}
+
+input {
+  border: 1px solid #b2bec3;
+  padding: 9px 12px;
+  width: 66px;
+  margin: 0 10px;
 }
