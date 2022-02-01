@@ -42,3 +42,5 @@ let items = [
     { id: 41, title: "MLB Team", picture: "mlbteam.jpg", price: 1500000000 },
     { id: 42, title: "NFL Team", picture: "nflteam.jpg", price: 2300000000 }
   ];
+
+  export default items;
