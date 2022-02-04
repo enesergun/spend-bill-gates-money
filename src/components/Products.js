@@ -1,6 +1,17 @@
 import React from 'react';
 import items from '../assets/data.js';
 
+function importAll(r) {
+    let images = {};
+    r.keys().map((item, index) => { 
+        return images[item.replace('./', '')] = r(item); 
+    });
+    return images;
+}
+  
+const images = importAll(require.context('../assets/images', false, /\.(png|jpe?g|svg)$/));
+
+
 function Products() {
   return (
   <div>
@@ -8,7 +19,7 @@ function Products() {
         {
           items.map(item => (
             <div className="product" key={item.id}>
-              <img src={item.picture} alt={item.title}/>
+              <img src={images[`${item.picture}`]} alt={item.title}/>
               <div className="product-info">
                 <h3>{item.title}</h3>
                 <p>${item.price}</p>
