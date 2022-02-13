@@ -1,5 +1,6 @@
 import React from 'react';
 import items from '../assets/data.js';
+import "../App.css"
 
 function importAll(r) {
     let images = {};
@@ -27,7 +28,7 @@ function Products() {
               <form action="">
                 <button>Sell</button>
                 <input type="number" name="" id="" />
-                <button>Buy</button>
+                <button class="buyButton">Buy</button>
               </form>
             </div>
             ))

@@ -50,3 +50,14 @@ input {
   width: 66px;
   margin: 0 10px;
 }
+
+.buyButton {
+  background: linear-gradient(180deg,#2ecc71,#1abc9c);
+  border: none;
+  border-radius: 3px;
+  font-weight: 700;
+  color: #fff;
+  padding: 10px 12px;
+  cursor: pointer;
+  
+}
