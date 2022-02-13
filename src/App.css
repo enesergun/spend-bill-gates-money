@@ -51,13 +51,32 @@ input {
   margin: 0 10px;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.formItem {
+  font-size: 16px;
+  text-align: center;
+  padding: 10px 12px;
+  border-radius: 3px;
+  font-weight: 700;
+}
+
+.sellButton {
+  background: #f1f2f6!important;
+  border: none;
+  color: #333;
+  cursor: auto;
+  touch-action: manipulation;
+}
+
 .buyButton {
   background: linear-gradient(180deg,#2ecc71,#1abc9c);
   border: none;
-  border-radius: 3px;
-  font-weight: 700;
   color: #fff;
-  padding: 10px 12px;
   cursor: pointer;
-  
+
 }

@@ -26,9 +26,9 @@ function Products() {
                 <p>${item.price}</p>
               </div>
               <form action="">
-                <button>Sell</button>
-                <input type="number" name="" id="" />
-                <button class="buyButton">Buy</button>
+                <button class="sellButton formItem">Sell</button>
+                <input type="number" name="" id="" class="formItem"/>
+                <button class="buyButton formItem">Buy</button>
               </form>
             </div>
             ))
